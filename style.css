@@ -1,0 +1,29 @@
+.wrapper {
+    margin: 0;
+    height: 100vh;
+    background-image: url(lens3.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+form {
+    width: 80%;
+    margin:auto; 
+    padding:auto;
+  }
+
+.bg {
+    background-color: rgba(223, 238, 239, 0.888);
+  }
+
+/* OTP Verification Boxes */
+body .otp_input input{
+    width: 14%;
+    height: 40px;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 400;
+}
